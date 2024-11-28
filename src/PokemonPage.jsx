@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 
 const PokemonPage = ({ id, onBack }) => {
   const [pokemon, setPokemon] = useState(null)
@@ -31,7 +31,7 @@ const PokemonPage = ({ id, onBack }) => {
         ))}
       </ul>
     </div>
-  );
-};
+  )
+}
 
 export default PokemonPage
